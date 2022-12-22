@@ -14,6 +14,14 @@
 		8B01189029534B7700335E27 /* City_GuideTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B01188F29534B7700335E27 /* City_GuideTests.swift */; };
 		8B01189A29534B7700335E27 /* City_GuideUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B01189929534B7700335E27 /* City_GuideUITests.swift */; };
 		8B01189C29534B7700335E27 /* City_GuideUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B01189B29534B7700335E27 /* City_GuideUITestsLaunchTests.swift */; };
+		8B123C24295353470065E7D6 /* TopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B123C23295353470065E7D6 /* TopView.swift */; };
+		8B123C26295365A90065E7D6 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B123C25295365A80065E7D6 /* CardView.swift */; };
+		8B123C28295380D20065E7D6 /* ScrollListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B123C27295380D20065E7D6 /* ScrollListView.swift */; };
+		8B123C2A295387510065E7D6 /* ClipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B123C29295387510065E7D6 /* ClipView.swift */; };
+		8B123C2C295388330065E7D6 /* ClipCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B123C2B295388330065E7D6 /* ClipCardView.swift */; };
+		8B123C2E295392060065E7D6 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B123C2D295392050065E7D6 /* LoadingView.swift */; };
+		8B123C302953BE660065E7D6 /* MapModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B123C2F2953BE660065E7D6 /* MapModule.swift */; };
+		8B399E882954CEC800DC1A38 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B399E872954CEC800DC1A38 /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +53,14 @@
 		8B01189529534B7700335E27 /* City GuideUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "City GuideUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B01189929534B7700335E27 /* City_GuideUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City_GuideUITests.swift; sourceTree = "<group>"; };
 		8B01189B29534B7700335E27 /* City_GuideUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City_GuideUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8B123C23295353470065E7D6 /* TopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopView.swift; sourceTree = "<group>"; };
+		8B123C25295365A80065E7D6 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		8B123C27295380D20065E7D6 /* ScrollListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollListView.swift; sourceTree = "<group>"; };
+		8B123C29295387510065E7D6 /* ClipView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClipView.swift; sourceTree = "<group>"; };
+		8B123C2B295388330065E7D6 /* ClipCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClipCardView.swift; sourceTree = "<group>"; };
+		8B123C2D295392050065E7D6 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		8B123C2F2953BE660065E7D6 /* MapModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapModule.swift; sourceTree = "<group>"; };
+		8B399E872954CEC800DC1A38 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +113,14 @@
 			children = (
 				8B01187D29534B7300335E27 /* City_GuideApp.swift */,
 				8B01187F29534B7300335E27 /* ContentView.swift */,
+				8B123C23295353470065E7D6 /* TopView.swift */,
+				8B123C27295380D20065E7D6 /* ScrollListView.swift */,
+				8B123C25295365A80065E7D6 /* CardView.swift */,
+				8B123C2F2953BE660065E7D6 /* MapModule.swift */,
+				8B399E872954CEC800DC1A38 /* DetailView.swift */,
+				8B123C29295387510065E7D6 /* ClipView.swift */,
+				8B123C2B295388330065E7D6 /* ClipCardView.swift */,
+				8B123C2D295392050065E7D6 /* LoadingView.swift */,
 				8B01188129534B7600335E27 /* Assets.xcassets */,
 				8B01188329534B7600335E27 /* City_Guide.entitlements */,
 				8B01188429534B7600335E27 /* Preview Content */,
@@ -259,7 +283,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B123C302953BE660065E7D6 /* MapModule.swift in Sources */,
 				8B01188029534B7300335E27 /* ContentView.swift in Sources */,
+				8B123C2C295388330065E7D6 /* ClipCardView.swift in Sources */,
+				8B399E882954CEC800DC1A38 /* DetailView.swift in Sources */,
+				8B123C24295353470065E7D6 /* TopView.swift in Sources */,
+				8B123C2A295387510065E7D6 /* ClipView.swift in Sources */,
+				8B123C26295365A90065E7D6 /* CardView.swift in Sources */,
+				8B123C2E295392060065E7D6 /* LoadingView.swift in Sources */,
+				8B123C28295380D20065E7D6 /* ScrollListView.swift in Sources */,
 				8B01187E29534B7300335E27 /* City_GuideApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -419,6 +451,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "近くの情報を表示するため位置情報を利用します。";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -428,7 +461,6 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
@@ -457,6 +489,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "近くの情報を表示するため位置情報を利用します。";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -466,7 +499,6 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
